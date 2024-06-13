@@ -24,6 +24,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
+		System.out.println("Por favor escribe el nombre de la serie que deseas buscar: ");
 	/*	Principal principal = new Principal();
 		principal.muestraElMenu();
 
