@@ -22,7 +22,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.projectKey=my-Java-web-app
+          -Dsonar.projectKey=prueba
           -X
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
