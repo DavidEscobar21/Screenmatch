@@ -22,7 +22,6 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=my-org
           -Dsonar.projectKey=my-Java-web-app
           -X
       env:
