@@ -18,7 +18,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -f screenmatch/pom.xml
     - name: SonarQube Scan
-      uses: sonarsource/sonarqube-scan-action@master
+      uses: SonarSource/sonarqube-scan-action@v2.2
       with:
         args: >
           -Dsonar.projectKey=prueba
