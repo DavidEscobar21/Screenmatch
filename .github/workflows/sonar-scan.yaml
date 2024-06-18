@@ -23,6 +23,7 @@ jobs:
     - name: SonarQube Scan
       uses: SonarSource/sonarqube-scan-action@v2.2
       with:
+        projectBaseDir: .
         args: >
           -Dsonar.projectKey=prueba
           -X
